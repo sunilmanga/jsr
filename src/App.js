@@ -1,24 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+import Aboutus from './components/About us';
+import CSR from './components/CSR';
+import Home from './components/Home';
+import Navbar from './components/Navbar'
+import Projects from "./components/Projects";
+import NoPage from "./components/NoPage";
+import Gallery from "./components/Gallery";
+import Awards from "./components/Awards";
+import Contact from "./components/Contact us";
+import Careers from "./components/Careers";
+import Assosciate from "./components/Assosciate";
+import Forms from "./components/Forms";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <BrowserRouter>
+      <Routes>
+          <Route exact path="/" element={<Home/>}></Route>
+          <Route exact path="/aboutus" element={<Aboutus/>}></Route>
+          <Route exact path="/projects" element={<Projects/>}></Route>
+          <Route exact path="/gallery" element={<Gallery/>}></Route>
+          <Route exact path="/awards" element={<Awards/>}></Route>
+          <Route exact path="/csr" element={<CSR/>}></Route>
+          <Route exact path="/contact" element={<Contact/>}></Route>
+          <Route exact path="/forms" element={<Forms/>}></Route>
+          <Route exact path="/careers" element={<Careers/>}></Route>
+          <Route exact path="/assosciate" element={<Assosciate/>}></Route>
+          <Route path="*" element={<NoPage/>} /> 
+      </Routes>
+    </BrowserRouter>
+
   );
 }
 
