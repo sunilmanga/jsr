@@ -1,5 +1,5 @@
 import Navbar from "../Navbar";
-
+import Bottom from "../Bottom"
 const Contact = () => {
   return (
     <div>
@@ -115,6 +115,7 @@ const Contact = () => {
           </form>
         </div>
       </div>
+      <Bottom/>
     </div>
   );
 };
