@@ -92,16 +92,25 @@ const Aboutus = () => {
 
       <div className="px-[1rem] mx-[11rem] py-[2.6rem] ">
         <div className="flex">
-          <div className="px-[1rem]">
-            
+          <div className="px-[1rem] w-[32.188rem] h-[38.938rem]">
+            <img src="img/jadapalli-narayana.jpg" alt="kmk" className=""/>
           </div>
-          <div>
-             
+          <div className="pl-5 px-[1rem] w-[34.688rem]">
+            <h1>
+            <span>Dr.</span> <span>JADAPALLI</span> <span>NARAYANA</span> 
+            </h1>
+            <p>Founder Chairman and Managing Director</p>
+            <hr />
+          <p className="flex-wrap text-center text-base	font-normal">
+Dr. JADAPALLI NARAYANA a REALTOR is the Founder Chairman and Managing Director of JSR GROUP SUNCITY. As a realtor, he has hands on experience of two decades and is a promoter and creator of many ventures in TELANGANA STATE. With dedication, determination &amp; hard work he had started his career with marketing in Real Estate Industry and thereby, completed number of successful prestigious ventures which include various residential projects in and around Hyderabad. He believes in quality service and value for money. He created great memories and experiences of owning dream home for his beloved customers with meticulous planning and strategy. Further, he had patronized and promoted many cultural associations to uphold Indian culture and got Honorable names such as KALAMITRA, SANGHAMITRA. He has initiated many social activities including distribution of utensils and uniforms to the government school students, sponsoring free drinking water in remote areas, contributing towards the marriages of people from lower economic strata, donating to the government departments for betterment of society, launching welfare society for his Associates staff by name JSR GROUP SUNCITY WELFARE FOUNDATION and much more. He is a man of Integrity who always keeps up his promise and lives up to the expectations of the people. He got the INDIAN ACHIEVERS AWARDS (Real Estate and Infrastructure) in 35th National Seminar, New Delhi towards his corporate and social responsibility. </p>
           </div>
         </div>
+        <div className="pt-[1.25rem]">
+        <p>Recognizing his Nation Building service and managerial capabilities he was conferred the Honorable Degree of Doctor of Honors in Colombo, Sri Lanka, National Sadbhavana Award from Nepal government Nelson Mandela Peaceful International award in Malaysia and recently got SWACHH BHARATH AWARD from SHRI.RAJNATH SINGH JI, the then Hon’ble Minister for Home Affairs, Govt of India. He is striving hard with the belief that INDIAN SHOULD OWN A PROPERTY. He approaches his customers by means of trust worthiness in service and creating their dream residential plots/villas with the perfectly suits their expectations.</p>        </div>
       </div>
       <Bottom/>
     </div>
+    
   );
 };
 

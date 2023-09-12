@@ -5,7 +5,10 @@ const Bottom = () => {
     <div>
         <div  className="px-[1rem] mx-[11rem] py-[3.3rem]">
         <div  className="pt-[1.5rem]  " >
-            <h1>Our Accredeations</h1>
+            <h1 className="text-3xl custommized-text-container">
+              <span className="mx-1">Our</span>
+              <span>Accreditations</span>
+            </h1>
             <div className="flex">
                 <div className="py-[1.87rem] px-[.625rem] border-r-[0.05rem] border-solid" >
                   <div className=" w-[12.5rem] h=[4.663rem] mx-[2.241rem]">
@@ -24,14 +27,13 @@ const Bottom = () => {
                 <div className="py-[1.87rem] px-[.625rem] border-r-[0.05rem] border-solid" >
                   <div className=" w-[12.5rem] h=[4.663rem] mx-[2.241rem]">
                     <img src="img/ts-rera.png" alt = " Images" />
-                 
                   </div>
                 </div>
 
                 <div className="py-[1.87rem] px-[.625rem] border-r-[0.05rem] border-solid" >
                   <div className=" w-[12.5rem] h=[4.663rem] mx-[2.241rem]">
                     <img src="img/iso2.png" alt = " Images" />
-                  
+
                   </div>
                 </div>
               
@@ -39,11 +41,19 @@ const Bottom = () => {
         </div>
       </div>
         <div
-          className="py-[5rem] w-full h-72 bg-no-repeat bg-cover flex items-end   "
+          className="py-[5rem] w-full h-72 bg-no-repeat bg-cover flex flex-col items-end justify-end"
           style={{ backgroundImage: `URL('img/common-contact-bg.png')` }}
         >
-          <h1 className=" text-3xl">Let's discuss about Investment Oppurtunities <span className="font-semibold text-3xl">over a cup of coffee </span> </h1>
-        <button className="bg-[#F5821F] px-8 py-3 text-white">Get In Touch</button>
+          <h1 style={{color:'rgb(64, 52, 52)'}} className="customized-text-container text-3xl">
+            <span className="mx-2">Let's</span>
+            <span  className="mx-2"> discuss </span>
+            <span  className="mx-2">about </span>
+            <span  className="mx-2">Investment</span>
+            <span  className="mx-2"> Oppurtunities </span>
+            <span className="font-semibold text-3xl">over a cup of coffee </span> </h1>
+            <div className=" mr-10">
+        <button className="bg-[#F5821F] px-8 py-3 text-white border border-1 rounded-full border-white">Get In Touch</button>
+            </div>
         </div>
 
         <div className=" bg-orange-400 pt-[2.5rem]  pd-[1.25rem]">
