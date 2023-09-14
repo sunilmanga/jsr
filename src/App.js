@@ -11,7 +11,7 @@ import Contact from "./components/Contact us";
 import Careers from "./components/Careers";
 import Assosciate from "./components/Assosciate";
 import Forms from "./components/Forms";
-import Link1 from "./components/Link1";
+import AddOn from "./components/AddOn";
 
 function App() {
   return (
@@ -19,8 +19,8 @@ function App() {
       <Routes>
           <Route exact path="/" element={<Home/>}></Route>
           <Route exact path="/aboutus" element={<Aboutus/>}></Route>
-          <Route exact path="/projects" element={<Projects/>}></Route>
-          <Route exact path="/link1" element={<Link1/>}></Route>
+          {/* <Route exact path="/projects" element={<Projects/>}></Route> */}
+          <Route exact path="/AddOn" element={<AddOn/>}></Route>
           <Route exact path="/gallery" element={<Gallery/>}></Route>
           <Route exact path="/awards" element={<Awards/>}></Route>
           <Route exact path="/csr" element={<CSR/>}></Route>
